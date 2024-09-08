@@ -1,39 +1,86 @@
+/* Basic reset and typography */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif; /* Default font for clean, modern look */
     margin: 0;
     padding: 0;
+    color: #333; /* Default text color for better readability */
+    line-height: 1.6; /* Improved line spacing for readability */
 }
 
+/* Header styling */
 header {
-    background-color: #333;
+    background-color: #0056b3; /* Custom background color for header */
     color: white;
-    padding: 10px 0;
+    padding: 20px 0; /* Increased padding for a more spacious header */
     text-align: center;
 }
 
+/* Navigation styling */
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0; /* Remove default margin */
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px; /* Increased margin for better spacing */
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold; /* Bold text for better emphasis */
 }
 
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover for better interactivity */
+}
+
+/* Section styling */
 section {
-    padding: 20px;
-    margin: 10px;
+    padding: 40px 20px; /* Increased padding for more content space */
+    margin: 0 auto; /* Center content */
+    max-width: 800px; /* Limit width for better readability */
+    background-color: #f4f4f4; /* Light background color for contrast */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
+section h2 {
+    color: #0056b3; /* Custom color for section headings */
+    margin-bottom: 20px; /* Space below headings */
+}
+
+/* Footer styling */
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
+    padding: 20px;
+    background-color: #0056b3; /* Matching background color with header */
     color: white;
+    position: absolute;
+    width: 100%; /* Ensure footer spans the full width */
+    bottom: 0;
 }
+
+/* Additional Styles for Cards (if using Bootstrap) */
+.card {
+    border: 1px solid #ddd; /* Light border for card component */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Shadow for depth */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Larger font size for titles */
+    color: #0056b3; /* Custom color for card titles */
+}
+
+.card-text a {
+    color: #0056b3; /* Custom color for links inside cards */
+    font-weight: bold; /* Bold links for emphasis */
+}
+
+.card-text a:hover {
+    text-decoration: underline; /* Underline on hover for better interactivity */
+}
+

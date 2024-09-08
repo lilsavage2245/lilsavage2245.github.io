@@ -9,47 +9,76 @@
     </head>
     
 <body>
-    <header class="bg-primary text-white text-center p-3">
-        <h1>Oluchi Faith Okoye</h1>
-        <nav>
-            <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link text-white" href="#about">About Me</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="bg-primary text-white">
+        <div class="container">
+            <h1 class="text-center py-3">Oluchi Faith Okoye</h1>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">Your Name</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
     
 
-    <section id="about" class="container mt-4">
-        <h2>About Me</h2>
-        <p>Hello! My name is Oluchi Okoye. I am a UX/UI developer with a passion for working with varieties of programming Languages. I am currently studying [Your Major/Field of Study] at [Your University]. My career goals include [Your Career Goals].</p>
+    <section id="about" class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h2 class="text-center mb-4">About Me</h2>
+                <p class="lead">Hello! My name is Oluchi Okoye. I am a UX/UI developer with a passion for working with varieties of programming Languages. I am currently studying [Your Major/Field of Study] at [Your University]. My career goals include [Your Career Goals].</p>
+            </div>
+        </div>
     </section>
     
 
-    <section id="projects" class="container mt-4">
-        <h2>Projects</h2>
+    <section id="projects" class="container mt-5">
+        <h2 class="text-center mb-4">Projects</h2>
         <p>Here are some of the projects I’ve worked on:</p>
-        <ul class="list-unstyled">
-            <li class="mb-3">
-                <h3>Problem Solving Application</h3>
-                <p>This application connects uusers on subcription to a professional to help follow up thier problems. <a href="https://github.com/lilsavage2245/lilsavage2245.github.io">GitHub Link</a></p>
-            </li>
-            <!-- Add more projects as needed -->
-        </ul>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="path-to-your-image.jpg" class="card-img-top" alt="Project Image">
+                    <div class="card-body">
+                        <h5 class=""card-title">Problem Solving Application</h5>
+                        <p class="card-title">This application connects users on subcription to a professional to help follow up thier problems. <a href="https://github.com/lilsavage2245/lilsavage2245.github.io" class=""btn btn-primary">GitHub Link</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for more projects -->
+        </div>
     </section>
     
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach me via email at <a href="mailto:your-email@example.com">oluchiokoye204@gmail.com</a></p>
+    <section id="contact" class="container mt-5">
+        <h2 class="text-center mb-4">Contact</h2>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <p>You can reach me via email at <a href="mailto:your-email@example.com">oluchiokoye204@gmail.com</a></p>
+            </div>
+        </div>
     </section>
     
 
-    <footer>
+    <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Oluchi Okoye. All rights reserved.</p>
     </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
 

@@ -5,12 +5,15 @@ body {
     padding: 0;
     color: #333; /* Default text color for better readability */
     line-height: 1.6; /* Improved line spacing for readability */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body takes up at least the full viewport height */
 }
 
 /* Header styling */
 header {
     background-color: #0056b3; /* Custom background color for header */
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 20px 0; /* Increased padding for a more spacious header */
     text-align: center;
 }
@@ -45,6 +48,7 @@ section {
     background-color: #f4f4f4; /* Light background color for contrast */
     border-radius: 8px; /* Rounded corners for a softer look */
     box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    flex: 1; /* Allow section to expand and push footer down */
 }
 
 section h2 {

@@ -67,24 +67,5 @@ footer {
     bottom: 0;
 }
 
-/* Additional Styles for Cards (if using Bootstrap) */
-.card {
-    border: 1px solid #ddd; /* Light border for card component */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Shadow for depth */
-}
 
-.card-title {
-    font-size: 1.5rem; /* Larger font size for titles */
-    color: #0056b3; /* Custom color for card titles */
-}
-
-.card-text a {
-    color: #0056b3; /* Custom color for links inside cards */
-    font-weight: bold; /* Bold links for emphasis */
-}
-
-.card-text a:hover {
-    text-decoration: underline; /* Underline on hover for better interactivity */
-}
 

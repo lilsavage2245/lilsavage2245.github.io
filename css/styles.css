@@ -1,71 +1,47 @@
 /* Basic reset and typography */
 body {
-    font-family: 'Arial', sans-serif; /* Default font for clean, modern look */
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333; /* Default text color for better readability */
-    line-height: 1.6; /* Improved line spacing for readability */
+    color: #333;
+    line-height: 1.6;
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Ensure body takes up at least the full viewport height */
 }
 
+/* Main content area */
+main {
+    flex: 1; /* Allow main content to expand and push footer down */
+}
+
 /* Header styling */
 header {
-    background-color: #0056b3; /* Custom background color for header */
-    color: rgb(255, 255, 255);
-    padding: 20px 0; /* Increased padding for a more spacious header */
-    text-align: center;
-}
-
-/* Navigation styling */
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0; /* Remove default margin */
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px; /* Increased margin for better spacing */
-}
-
-nav ul li a {
+    background-color: #0056b3;
     color: white;
-    text-decoration: none;
-    font-weight: bold; /* Bold text for better emphasis */
-}
-
-nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover for better interactivity */
+    padding: 20px 0;
+    text-align: center;
 }
 
 /* Section styling */
 section {
-    padding: 40px 20px; /* Increased padding for more content space */
-    margin: 0 auto; /* Center content */
-    max-width: 800px; /* Limit width for better readability */
-    background-color: #f4f4f4; /* Light background color for contrast */
-    border-radius: 8px; /* Rounded corners for a softer look */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
-    flex: 1; /* Allow section to expand and push footer down */
-}
-
-section h2 {
-    color: #0056b3; /* Custom color for section headings */
-    margin-bottom: 20px; /* Space below headings */
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 /* Footer styling */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #0056b3; /* Matching background color with header */
+    background-color: #0056b3;
     color: white;
-    position: absolute;
-    width: 100%; /* Ensure footer spans the full width */
-    bottom: 0;
+    width: 100%;
 }
+
 
 
 
